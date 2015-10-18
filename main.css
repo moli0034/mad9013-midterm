@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	background-color: rgb(18, 18, 18);
+}
+h1 {
+	font-size: 2.369em;
+	color: #C0392B;
+	line-height: 1;
+	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;  
+}
+h2 {
+	font-size: 1.777em;
+	color: #C0392B;
+	margin-bottom: 5px;
+}
+h3 {
+	font-size: 1.333em;
+	color: #C0392B;
+	margin-bottom: 5px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin-bottom: 10px;
+}
+li {
+	list-style-type: none;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+p {
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 0.8rem;
+}
+.mainnav a {
+	display: block;
+	padding: 8px;
+	background-color: rgb(18, 18, 18);
+	color: #FFF;
+}
+.mainnav a:hover {
+	background-color: #C0392B;
+}
+.wrapper {
+	min-width: 300px;
+	margin: 15px;
+	padding: 15px;
+	background-color: #FFF;
+}
+.masthead {
+	text-align: center;
+	background-image: url("img/masthead.jpg");
+	height: 150px;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0 15px;
+	padding-top: 75px;
+}
+.primary {
+	margin-bottom: 15px;
+}
+.primary p:last-child {
+	margin-bottom: 0;
+}
+.footer {
+	text-align: center;
+	color: rgb(147, 147, 147);
+}
+.footer p {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+@media (min-width: 533px){
+	.masthead {
+		padding-top: 120px;
+	}
+}
+
+@media (max-width: 60em) and (min-width: 35em) {
+	li {
+		display: inline-block;
+		margin: 0 11px;
+	}
+	.mainnav {
+		background-color: rgb(18, 18, 18);
+		text-align: center;
+	}
+	.content {
+		width: 63%;
+		float: left;
+	}
+	.primary {
+		margin-right: 15px;
+	}
+	.side {
+		width: 37%;
+		float: left;
+	}
+	p {
+		text-align: justify;
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 60em) {
+	h1 {
+		font-size: 6em;
+	}
+	p {
+		text-align: left;
+		font-size: 1.5rem;
+	}
+	.masthead {
+		background-image: url("img/masthead2.jpg");
+		background-position: auto;
+		height: 300px;
+	}
+	.mainnav {
+		width: 25%;
+		float: left;
+	}
+	.content {
+		width: 50%;
+		float: left;
+	}
+	.primary {
+		margin: 0 15px;
+	}
+	.side {
+		width: 25%;
+		float: left;
+	}
+	.primary {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 15px;
+	}
+}
+
+@media (min-width: 1185px) {
+	h1 {
+		padding-top: 45px;
+	}
+}
+
+@media (min-width: 1660px) {
+	.wrapper {
+		max-width: 1600px;
+		margin: 15px auto;
+	}
+}
