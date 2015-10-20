@@ -131,7 +131,11 @@ p {
 	}
 	.mainnav {
 		width: 25%;
+		height: 500px;
 		float: left;
+		background-image: url("img/nav.jpg");
+		background-repeat: no-repeat;
+		background-position: 0 166px;
 	}
 	.content {
 		width: 50%;
